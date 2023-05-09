@@ -22,11 +22,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-	"compileSdkVersion": "31"
+        "backgroundColor": "#FFFFFF",
+	"compileSdkVersion": "31",
 	"defaultConfig": {
-		"minSdkVersion": "16"
-		"targetSdkVersion": "31"
+	"minSdkVersion": "16",
+	"targetSdkVersion": "31"
+	}
       },
       "package": "com.kakidiako.Jinrou"
     },
