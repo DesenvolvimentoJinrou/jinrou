@@ -24,10 +24,38 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
+      "plugins": [
+	      [ 
+	        AndroidConfig.Version.withBuildScriptExtMinimumVersion,
+		{
+	  	  "name": "minSdkVersion",
+		  "minVersion": 24,
+		},
+	       ]
+	      [
+	        AndroidConfig.Version.withBuildScriptExtMinimumVersion,
+		{
+	          "name": "compileSdkVersion",
+		  "minVersion": 31,
+		},
+	       ],
+	      [
+               AndroidConfig.Version.withBuildScriptExtMinimumVersion,
+	       {
+		 "name": "targetSdkVersion",
+		 "minVersion": 31,
+	       },
+	      ],
+	     ],
       "package": "com.kakidiako.Jinrou"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5253c79a-f3f0-4147-a260-76a72fd7ca74"
+      }
     }
   }
 }
