@@ -23,30 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+	"targetSdkVersion": "31"
       },
-      "plugins": [
-	      [ 
-	        AndroidConfig.Version.withBuildScriptExtMinimumVersion,
-		{
-	  	  "name": "minSdkVersion",
-		  "minVersion": 24,
-		},
-	       ]
-	      [
-	        AndroidConfig.Version.withBuildScriptExtMinimumVersion,
-		{
-	          "name": "compileSdkVersion",
-		  "minVersion": 31,
-		},
-	       ],
-	      [
-               AndroidConfig.Version.withBuildScriptExtMinimumVersion,
-	       {
-		 "name": "targetSdkVersion",
-		 "minVersion": 31,
-	       },
-	      ],
-	     ],
       "package": "com.kakidiako.Jinrou"
     },
     "web": {
